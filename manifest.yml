@@ -1,0 +1,13 @@
+applications:
+- services:
+  - AltaDB-rubyDrda
+  disk_quota: 1024M
+  host: rubydrdahelloworld
+  name: rubyDrdaHelloWorld
+  path: .
+  domain: stage1.mybluemix.net
+  instances: 1
+  memory: 256M
+
+
+timeout: 180
